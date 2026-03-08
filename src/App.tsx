@@ -932,7 +932,7 @@ export default function App() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-primary shrink-0" aria-hidden="true" />
-                  <a href={`mailto:${EMAIL} `} className="hover:text-primary transition-colors truncate max-w-[200px] cursor-pointer min-h-[44px] flex items-center" title={EMAIL}>{EMAIL}</a>
+                  <a href={`mailto:${EMAIL} `} className="hover:text-primary transition-colors break-all cursor-pointer min-h-[44px] flex items-center" title={EMAIL}>{EMAIL}</a>
                 </li>
               </ul>
             </div>
